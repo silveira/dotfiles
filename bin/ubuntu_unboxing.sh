@@ -14,3 +14,5 @@ sudo pip install awscli
 # disable overlay scrollbar
 gsettings set com.canonical.desktop.interface scrollbar-mode normal
 
+# remove lens-shopping (amazon.com stuff on Ubuntu)
+sudo apt-get remove unity-lens-shopping
