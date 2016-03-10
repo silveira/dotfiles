@@ -1,6 +1,6 @@
 #!/bin/bash
 
-pkgs=(git python-pip xchat gimp inkscape blender sshfs synaptic unrar compizconfig-settings-manager)
+pkgs=(git python-pip xchat gimp inkscape blender sshfs synaptic unrar compizconfig-settings-manager audacity)
 
 # install packages
 for package in ${pkgs[@]};
