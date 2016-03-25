@@ -6,7 +6,7 @@ pkgs=(git python-pip xchat gimp inkscape blender sshfs synaptic unrar compizconf
 # install packages
 for package in ${pkgs[@]};
 do
-   echo sudo apt-get -y  $package
+   echo sudo apt-get -y install $package
 done
 
 # install aws cli
