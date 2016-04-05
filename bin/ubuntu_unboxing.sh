@@ -1,12 +1,26 @@
 #!/bin/bash
 
-pkgs=(git python-pip xchat gimp inkscape blender sshfs synaptic unrar compizconfig-settings-manager audacity p7zip-full)
+pkgs=(
+	git
+	python-pip
+	xchat
+	gimp
+	inkscape
+	blender
+	sshfs
+	synaptic
+	unrar
+	compizconfig-settings-manager
+	audacity
+	p7zip-full
+)
+
 
 
 # install packages
 for package in ${pkgs[@]};
 do
-   echo sudo apt-get -y install $package
+   sudo apt-get -y install $package
 done
 
 # install aws cli
