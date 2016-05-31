@@ -14,6 +14,7 @@ pkgs=(
 	audacity
 	p7zip-full
 	lynx
+        jq
 )
 
 
