@@ -8,4 +8,4 @@ alias nuke='brazil workspace --clean ; brazil-recursive-cmd --allPackages "brazi
 alias l='ls'
 alias lsd='ls -dG */'
 
-
+setopt HIST_IGNORE_SPACE
