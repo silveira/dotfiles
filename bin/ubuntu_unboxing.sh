@@ -16,6 +16,7 @@ pkgs=(
 	lynx
         jq
 	caca-utils
+	unison2.32.52
 )
 
 
