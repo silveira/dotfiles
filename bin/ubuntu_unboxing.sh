@@ -15,6 +15,7 @@ pkgs=(
 	p7zip-full
 	lynx
         jq
+	caca-utils
 )
 
 
